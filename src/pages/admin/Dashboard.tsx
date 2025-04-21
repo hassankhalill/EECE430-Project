@@ -1,3 +1,4 @@
+
 import { Layout } from "@/components/layout/Layout";
 import { StatsCard } from "@/components/dashboard/StatsCard";
 import { Button } from "@/components/ui/button";
@@ -31,15 +32,15 @@ const AdminDashboard = () => {
     {
       id: "1",
       type: "new_doctor",
-      name: "Dr. Yasmeen Al-Farsi",
+      name: "Dr. Rachel Adams",
       specialty: "Neurologist",
       time: "1 hour ago"
     },
     {
       id: "2",
       type: "emergency_approved",
-      patientName: "Karim Najjar",
-      doctorName: "Dr. Hassan",
+      patientName: "James Miller",
+      doctorName: "Dr. Wilson",
       time: "3 hours ago"
     },
     {

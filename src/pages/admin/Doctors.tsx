@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import { Layout } from "@/components/layout/Layout";
 import { 
@@ -59,9 +60,9 @@ import {
 const mockDoctors = [
   {
     id: "1",
-    name: "Dr. Mohammad Al-Khalil",
-    email: "mohammad.khalil@example.com",
-    phone: "03 123777",
+    name: "Dr. Thomas Wilson",
+    email: "thomas.wilson@example.com",
+    phone: "(555) 123-7777",
     specialty: "Cardiology",
     clinic: "Central Medical Center",
     availability: "Mon, Wed, Fri",
@@ -71,9 +72,9 @@ const mockDoctors = [
   },
   {
     id: "2",
-    name: "Dr. Rania Khoury",
-    email: "rania.khoury@example.com",
-    phone: "76 888222",
+    name: "Dr. Amanda Rodriguez",
+    email: "amanda.rodriguez@example.com",
+    phone: "(555) 888-2222",
     specialty: "Pediatrics",
     clinic: "Children's Wellness Center",
     availability: "Mon-Fri",
@@ -83,9 +84,9 @@ const mockDoctors = [
   },
   {
     id: "3",
-    name: "Dr. Omar Zaydan",
-    email: "omar.zaydan@example.com",
-    phone: "03 333999",
+    name: "Dr. James Patel",
+    email: "james.patel@example.com",
+    phone: "(555) 333-9999",
     specialty: "Dermatology",
     clinic: "Skin Health Clinic",
     availability: "Tue, Thu, Sat",
@@ -95,9 +96,9 @@ const mockDoctors = [
   },
   {
     id: "4",
-    name: "Dr. Hassan Ibrahim",
-    email: "hassan.ibrahim@example.com",
-    phone: "76 444555",
+    name: "Dr. Sarah Chen",
+    email: "sarah.chen@example.com",
+    phone: "(555) 444-5555",
     specialty: "Neurology",
     clinic: "Brain & Spine Institute",
     availability: "Wed, Thu, Fri",
@@ -107,9 +108,9 @@ const mockDoctors = [
   },
   {
     id: "5",
-    name: "Dr. Layla Haddad",
-    email: "layla.haddad@example.com",
-    phone: "03 666777",
+    name: "Dr. Michael Johnson",
+    email: "michael.johnson@example.com",
+    phone: "(555) 666-7777",
     specialty: "Orthopedics",
     clinic: "Joint Care Center",
     availability: "Mon, Tue, Wed",

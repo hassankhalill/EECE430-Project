@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import { Layout } from "@/components/layout/Layout";
 import { MoreHorizontal, Search, UserPlus, Mail, Phone, Settings } from "lucide-react";
@@ -42,9 +43,9 @@ import {
 const mockUsers = [
   {
     id: "1",
-    name: "Ali Assaad",
-    email: "ali.assaad@example.com",
-    phone: "03 123456",
+    name: "Sarah Johnson",
+    email: "sarah.johnson@example.com",
+    phone: "(555) 123-4567",
     role: "patient",
     status: "active",
     joinDate: "2024-12-10",
@@ -52,9 +53,9 @@ const mockUsers = [
   },
   {
     id: "2",
-    name: "Mahmoud Khalil",
-    email: "mahmoud.khalil@example.com",
-    phone: "76 987654",
+    name: "Michael Chen",
+    email: "michael.chen@example.com",
+    phone: "(555) 987-6543",
     role: "patient",
     status: "active",
     joinDate: "2025-01-15",
@@ -62,9 +63,9 @@ const mockUsers = [
   },
   {
     id: "3",
-    name: "Nour Al-Hadi",
-    email: "nour.alhadi@example.com",
-    phone: "03 456789",
+    name: "Emily Rodriguez",
+    email: "emily.rodriguez@example.com",
+    phone: "(555) 456-7890",
     role: "patient",
     status: "inactive",
     joinDate: "2024-10-03",
@@ -72,9 +73,9 @@ const mockUsers = [
   },
   {
     id: "4",
-    name: "Samir Nassar",
-    email: "samir.nassar@example.com",
-    phone: "76 789012",
+    name: "Robert Smith",
+    email: "robert.smith@example.com",
+    phone: "(555) 789-0123",
     role: "patient",
     status: "active",
     joinDate: "2025-03-22",
@@ -82,9 +83,9 @@ const mockUsers = [
   },
   {
     id: "5",
-    name: "Leila Karam",
-    email: "leila.karam@example.com",
-    phone: "03 234567",
+    name: "Sophia Martinez",
+    email: "sophia.martinez@example.com",
+    phone: "(555) 234-5678",
     role: "patient",
     status: "active",
     joinDate: "2025-02-18",
@@ -92,9 +93,9 @@ const mockUsers = [
   },
   {
     id: "6",
-    name: "Karim Najjar",
-    email: "karim.najjar@example.com",
-    phone: "76 321098",
+    name: "James Wilson",
+    email: "james.wilson@example.com",
+    phone: "(555) 321-0987",
     role: "patient",
     status: "pending",
     joinDate: "2025-04-08",
